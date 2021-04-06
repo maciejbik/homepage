@@ -1,0 +1,94 @@
+body
+{
+    background: #0D3B66;
+}
+
+h1
+{
+    text-align: center;
+    font-family: lazer84;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    color: #F4D35E;
+    text-shadow: 3px 3px 0 #F95738;
+}
+h2
+{
+    font-size: 2rem;
+    text-align: center;
+    color: #F4D35E;
+}
+h3
+{
+    font-size: 1.5rem;
+    color: #F95738;
+}
+h4
+{
+    color: #e23917;
+}
+section
+{
+    background: #0b3257;
+    box-shadow: 0px -5px 0 rgb(23, 160, 214);
+}
+p
+{
+    font-size: 1.1rem;
+    color: #FAF0CA;
+}
+li
+{
+    font-size: 1.3rem;
+    color:#44AF69;
+}
+a
+{
+    font-size: 1.3rem;
+    color: rgb(255, 231, 19);
+}
+footer
+{
+    font-size: 1.2rem;
+    color: #F8333C;
+}
+
+
+
+.hero__photo {
+    max-width: 5000px;
+    border-radius: 30% 70% 70% 30%/30% 1000% 70% 70%;
+    animation: organic alternate 43s ease-in-out infinite reverse;
+    align-self: center;
+}
+.main-header
+{
+    text-align: center;
+    font-family: lazer84;
+    font-size: 3.5rem;
+    letter-spacing: .1rem;
+    color: #F4D35E;
+    text-shadow: 3px 3px 0 #F95738;
+}
+.important-highlight
+{
+    color:#F95738;
+    text-shadow: 3px 3px 0 #F4D35E;;
+}
+.img-centered
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.change-subpage
+{
+    text-align: center;
+}
+.change-subpage a
+{
+    color:aqua;
+    text-decoration: underline overline dotted rgb(44, 248, 221);
+    font-size: 2rem;
+}
+
