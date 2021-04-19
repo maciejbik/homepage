@@ -87,7 +87,7 @@ footer
 .change-subpage a
 {
     color:aqua;
-    text-decoration: underline overline dotted rgb(44, 248, 221);
+    border: 2px dotted rgb(255, 115, 0);
     font-size: 2rem;
 }
 
