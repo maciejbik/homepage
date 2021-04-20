@@ -1,154 +1,206 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notatki</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="change-subpage">
-            <a href="index.html">Strona główna</a>
-            <a href="notatki-html.html">Notatki html</a>
-            <a href="stardew-valley.html">Dolina Stardew</a>
-        </nav>
+      <nav class="change-subpage">
+        <a href="index.html">Strona główna</a>
+        <a href="notatki-html.html">Notatki html</a>
+        <a href="stardew-valley.html">Dolina Stardew</a>
+      </nav>
     </header>
     <main>
-        <header>
-            <h1 class="main-header">Notatki</h1>
-        </header>
-        <!-- TYDZIEŃ 1 -->
-        <section id="tydzien1">
-            <h2>Tydzień 1</h2>
-            <article>
-                <h3>Wprowadzenie</h3>
-                <ul>
-                    <li>Ogólne zasady</li>
-                    <li>Pisowania frontendu<br><span class="special">frontend/front end/front-end</span></li>
-                </ul>
+      <header>
+        <h1 class="main-header">Notatki</h1>
+      </header>
+      <!-- TYDZIEŃ 1 -->
+      <section id="tydzien1">
+        <h2>Tydzień 1</h2>
+        <article>
+          <h3>Wprowadzenie</h3>
+          <ul>
+            <li>Ogólne zasady</li>
+            <li>
+              Pisowania frontendu<br /><span class="special"
+                >frontend/front end/front-end</span
+              >
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Frontend ogólnie:</h3>
 
-            </article>
-            <article>
-                <h3>Frontend ogólnie:</h3>
+          <ul>
+            <li>odpowiada za wygląd stron/aplikacji internetowych</li>
+            <li>odpowiada za interakcję z urzytkownikiem</li>
+            <li>
+              jest generowany głownie przy użyciu trzech technologii: HTML, CSS,
+              JavaScript
+            </li>
+            <li>
+              technologie frontendowe przejmują rynek tradycyjnych aplikacji
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Rozwój frontendowca</h3>
+          <a href="https://roadmap.sh/frontend">>mapa</a>
+        </article>
+      </section>
 
-                <ul>
-                    <li>odpowiada za wygląd stron/aplikacji internetowych</li>
-                    <li>odpowiada za interakcję z urzytkownikiem</li>
-                    <li>jest generowany głownie przy użyciu trzech technologii: HTML, CSS, JavaScript</li>
-                    <li>technologie frontendowe przejmują rynek tradycyjnych aplikacji</li>
-                </ul>
+      <!-- TYDZIEŃ 2 -->
+      <section id="tydzien2">
+        <h2>Tydzień 2</h2>
+        <!--Warstwy-->
+        <article>
+          <h3>Warstwy:</h3>
 
-            </article>
-            <article>
-                <h3>Rozwój frontendowca</h3>
-                <a href="https://roadmap.sh/frontend">>mapa</a>
-            </article>
-        </section>
-        
-        <!-- TYDZIEŃ 2 -->
-        <section id="tydzien2">
-            <h2>Tydzień 2</h2>
-            <!--Warstwy-->
-            <article>
-                <h3>Warstwy:</h3>
-                
-                <ul>
-                    <li>Warstwa 0 - Treść</li>
-                    
-                    <li>Warstwa 1 - Semantyka : HTML</li>
-                    <li>Warstwa 2 - Prezentacja : CSS</li>
-                    <li>Warstwa 3 - Interakcja : Javascript</li>
-                </ul>
-                <img src="img/warstwy-strony-internetowej.png" class="img-centered" alt="Warstwy strony internetowej">
-                
-            </article>
-            <!--HTML-->
-            <article>
-                <h3>HTML</h3>
-                    <h4>Informacje:</h4>
-                    <ul>
-                        <li>Treść to wszystko co jest nośnikiem informacji</li>
-                        <li>HTML składa się ze znaczników/tagów/elementów</li>
-                    </ul>
-                    <h4>Budowa znaczników:</h4>
-                    <img src="img/budowa-znacznikow.png" class="img-centered" alt="Warstwy strony internetowej"><br>
-                    <p>
-                    -Semantyczny = Mający znaczenie<br>
-                    -Pliki zawierierające HTML mają zwykle roszerzenie .html<br>
-                    -! + TAB - automatyczny szkielet strony<br>
-                    -&lt;!DOCTYPE html> - jakiego typu jest ten dokument kiedyś definiowało się tym dokładny standard HTML-a
-                    </p>
-                    <br><img src="img/cialo-html.png" class="img-centered" alt="Warstwy strony internetowej"><br>
-                    <h4>Zaczniki HTML: </h4>
-                    <ul>
-                        <li>&lt;html lang="pl>></li>
-                        <li>&lt;main> - główna część dokumentu</li>
-                        <li>&lt;section> - sekcje dokumentu</li>
-                        <li>&lt;article> - samodzielne treści (artykuły)</li>
-                        <li>&lt;header> - nagłówek - dokumentu/sekcji/artykułu</li>
-                        <li>&lt;footer> - stopka - dokumentu/sekcji</li>
-                        <li>&lt;h1-h6> - tekstowe nagłówki tytułowe - dokumentu/sekcji</li>
-                        <li>&lt;p> - paragraf/akapit</li>
-                    </ul>
-                    
-                    <p>
-                    <b>CTRL + SHIFT + P</b><br>Komenda: Format Document<br>
-                    Szybkie segregowanie elementów kodu
-                    
-                    <br><br>
-                        Nu HTML Checker - przydatne narzędzie do sprawdzania poprawności kodu
-                        <br>
-                        <a href="https://validator.w3.org/nu/">Validator</a>
-                    <br>
-                    Nie jest językiem programowania a językiem znaczników
-                    </p>
-                
-            </article>
-            <!--CSS-->
-            <article>
-                <h3>CSS</h3>
-                    CSS = Cascading Style Sheets = Kaskadowe Arkusze Stylów
-                    <ul>
-                        <li>CSS odpowiada za prezentacje</li>
-                        <li>CSS wpływa na wygląd elementów HTML na ekranie, wydrukach, itp.</li>
-                        <li>Składnia CSS to reguły: <br><img src="img/budowa-reguly-CSS.png" class="img-centered" alt="budowa-reguly-CSS"></li>
-                        <li>selektor - za pomocą niego wybieramy co chcemy ostylować</li>
-                        <li>Pliki zawierające kod CSS mają rozszerzenie .css (nie jest to regułą)</li>
-                        <li>znacznik style (w HTML w head):<br> <img src="img/znacznik-style-w-html.png" class="img-centered" alt="znacznik-style-w-html"></li>
-                        <li>znacznik &lt;link><br><img src="img/znacznik-link.png" class="img-centered" alt="znacznik-link"></li>
-                        <li>Do kopiowania: &lt;link href="style.css" rel="stylesheet" type="text/css"><br></li>
-                        <li><h4>Własności CSS: </h4></li>
-                        <li>color: (atrybut, czyli kolor)</li>
-                        <li>background: (atrybut, czyli kolor)</li>
-                        
-                    </ul>
-                    <h4>CSS ogółem</h4>
-                    <ul>
-                        <li>odpowiadają za prezentację treści strony</li>
-                        <li>nie mają jednej wersji (rozwój modułów potocznie mówi się, że aktualna wersja to 3)</li>
-                        <li>przeglądarki potrafią różnie interpretować CSS co prowadzi do tego, że pisanie stylów powoduje wiele frustracji u programistów</li>
-                        <li>Cała specyfikacja na stronie w3c</li>
-                    </ul>
-            </article>
-            <!--JavaScript-->
-            <article>
-                <h3>JavaScript</h3>
-                    <ul>
-                        <li>odpowiada za interakcję</li>
-                        <li>pozwala na programowanie we frontendzie</li>
-                        <li>potrafi wpływać na każdą z warstw</li>
-                        <li>rozszerza możliwości zwykłych stron</li>
-                        <li>aktualnie jest jednym z najpopularniejszych języków programowania</li>
-                    </ul>
-            </article>
-        </section>
-        <footer>
-            Strona stworzona przez Macieja Bika, podczas nauki html-a w ramach kursu WTF: Co ten Frontend.
-        </footer>
+          <ul>
+            <li>Warstwa 0 - Treść</li>
+
+            <li>Warstwa 1 - Semantyka : HTML</li>
+            <li>Warstwa 2 - Prezentacja : CSS</li>
+            <li>Warstwa 3 - Interakcja : Javascript</li>
+          </ul>
+          <img
+            src="img/warstwy-strony-internetowej.png"
+            class="img-centered"
+            alt="Warstwy strony internetowej"
+          />
+        </article>
+        <!--HTML-->
+        <article>
+          <h3>HTML</h3>
+          <h4>Informacje:</h4>
+          <ul>
+            <li>Treść to wszystko co jest nośnikiem informacji</li>
+            <li>HTML składa się ze znaczników/tagów/elementów</li>
+          </ul>
+          <h4>Budowa znaczników:</h4>
+          <img
+            src="img/budowa-znacznikow.png"
+            class="img-centered"
+            alt="Warstwy strony internetowej"
+          /><br />
+          <p>
+            -Semantyczny = Mający znaczenie<br />
+            -Pliki zawierierające HTML mają zwykle roszerzenie .html<br />
+            -! + TAB - automatyczny szkielet strony<br />
+            -&lt;!DOCTYPE html> - jakiego typu jest ten dokument kiedyś
+            definiowało się tym dokładny standard HTML-a
+          </p>
+          <br /><img
+            src="img/cialo-html.png"
+            class="img-centered"
+            alt="Warstwy strony internetowej"
+          /><br />
+          <h4>Zaczniki HTML:</h4>
+          <ul>
+            <li>&lt;html lang="pl>></li>
+            <li>&lt;main> - główna część dokumentu</li>
+            <li>&lt;section> - sekcje dokumentu</li>
+            <li>&lt;article> - samodzielne treści (artykuły)</li>
+            <li>&lt;header> - nagłówek - dokumentu/sekcji/artykułu</li>
+            <li>&lt;footer> - stopka - dokumentu/sekcji</li>
+            <li>&lt;h1-h6> - tekstowe nagłówki tytułowe - dokumentu/sekcji</li>
+            <li>&lt;p> - paragraf/akapit</li>
+          </ul>
+
+          <p>
+            <b>CTRL + SHIFT + P</b><br />Komenda: Format Document<br />
+            Szybkie segregowanie elementów kodu
+
+            <br /><br />
+            Nu HTML Checker - przydatne narzędzie do sprawdzania poprawności
+            kodu
+            <br />
+            <a href="https://validator.w3.org/nu/">Validator</a>
+            <br />
+            Nie jest językiem programowania a językiem znaczników
+          </p>
+        </article>
+        <!--CSS-->
+        <article>
+          <h3>CSS</h3>
+          CSS = Cascading Style Sheets = Kaskadowe Arkusze Stylów
+          <ul>
+            <li>CSS odpowiada za prezentacje</li>
+            <li>
+              CSS wpływa na wygląd elementów HTML na ekranie, wydrukach, itp.
+            </li>
+            <li>
+              Składnia CSS to reguły: <br /><img
+                src="img/budowa-reguly-CSS.png"
+                class="img-centered"
+                alt="budowa-reguly-CSS"
+              />
+            </li>
+            <li>selektor - za pomocą niego wybieramy co chcemy ostylować</li>
+            <li>
+              Pliki zawierające kod CSS mają rozszerzenie .css (nie jest to
+              regułą)
+            </li>
+            <li>
+              znacznik style (w HTML w head):<br />
+              <img
+                src="img/znacznik-style-w-html.png"
+                class="img-centered"
+                alt="znacznik-style-w-html"
+              />
+            </li>
+            <li>
+              znacznik &lt;link><br /><img
+                src="img/znacznik-link.png"
+                class="img-centered"
+                alt="znacznik-link"
+              />
+            </li>
+            <li>
+              Do kopiowania: &lt;link href="style.css" rel="stylesheet"
+              type="text/css"><br />
+            </li>
+            <li><h4>Własności CSS:</h4></li>
+            <li>color: (atrybut, czyli kolor)</li>
+            <li>background: (atrybut, czyli kolor)</li>
+          </ul>
+          <h4>CSS ogółem</h4>
+          <ul>
+            <li>odpowiadają za prezentację treści strony</li>
+            <li>
+              nie mają jednej wersji (rozwój modułów potocznie mówi się, że
+              aktualna wersja to 3)
+            </li>
+            <li>
+              przeglądarki potrafią różnie interpretować CSS co prowadzi do
+              tego, że pisanie stylów powoduje wiele frustracji u programistów
+            </li>
+            <li>Cała specyfikacja na stronie w3c</li>
+          </ul>
+        </article>
+        <!--JavaScript-->
+        <article>
+          <h3>JavaScript</h3>
+          <ul>
+            <li>odpowiada za interakcję</li>
+            <li>pozwala na programowanie we frontendzie</li>
+            <li>potrafi wpływać na każdą z warstw</li>
+            <li>rozszerza możliwości zwykłych stron</li>
+            <li>
+              aktualnie jest jednym z najpopularniejszych języków programowania
+            </li>
+          </ul>
+        </article>
+      </section>
+      <footer>
+        Strona stworzona przez Macieja Bika, podczas nauki html-a w ramach kursu
+        WTF: Co ten Frontend.
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>
