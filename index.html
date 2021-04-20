@@ -8,24 +8,40 @@
   </head>
 
   <body>
+    <!--SUBPAGE NAVIGATION-->
     <header>
-      <nav class="change-subpage">
-        <a href="index.html">Strona główna</a>
-        <a href="notatki-html.html">Notatki html</a>
-        <a href="stardew-valley.html">Dolina Stardew</a>
+      <nav class="subpage-navigation">
+        <a class="subpage-navigation__link--main" href="index.html"
+          >Strona główna</a
+        >
+        <a class="subpage-navigation__link" href="notatki-html.html"
+          >Notatki html</a
+        >
+        <a class="subpage-navigation__link" href="stardew-valley.html"
+          >Dolina Stardew</a
+        >
       </nav>
     </header>
 
     <main>
+      <!--Main Header with photo-->
       <header>
         <h1 class="main-header">Maciej Bik - strona domowa WTF</h1>
       </header>
-      <img src="img/maciej.jpg" class="img-centered" alt="Maciej Bik" />
-      <section>
-        <h2 class="secondary-header">Kim jestem?</h2>
-        <article>
-          <h3 class="tertiary-header">O mnie</h3>
-          <p class="standard-paragraf">
+      <img
+        class="main-header__photo"
+        src="img/maciej.jpg"
+        class="img-centered"
+        alt="Maciej Bik stojący na białej ścianie"
+      />
+
+      <!--Section "Kim jestem?"-->
+      <section class="section">
+        <h2 class="section__header">Kim jestem?</h2>
+        <!--Article "O mnie"-->
+        <article class="article">
+          <h3 class="article__header">O mnie</h3>
+          <p class="article__paragraph">
             Jestem Maciej Bik. Uczeń technikum (ZST) nr.3 w Mielcu.
             Uczestniczyłem podczas swojej edukacji w kilku kursach, lecz nie
             zawsze byłem w stanie je skończyć. <br />Interesuję się grami
@@ -36,14 +52,15 @@
           </p>
         </article>
       </section>
-
-      <section>
-        <h2 class="secondary-header">
-          Dlaczego postanowiłem nauczyć sie html-a?
+      <!--Section "Dlaczego postanowiłem nauczyć się html-a?"-->
+      <section class="section">
+        <h2 class="section__header">
+          Dlaczego postanowiłem nauczyć się html-a?
         </h2>
-        <article>
-          <h3 class="tertiary-header">Moja historia z HTML-em</h3>
-          <p class="standard-paragraf">
+        <!--Article "Moja historia z HTML-em"-->
+        <article class="article">
+          <h3 class="article__header">Moja historia z HTML-em</h3>
+          <p class="article__paragraph">
             HTML-a zacząłem się uczyć w gimnazum na lekcji techniki. Nigdy nie
             przykładałem bardzo się do nauki pisania stron internetowych,
             ponieważ nigdy nie miałem w tym większego zainteresowania.
@@ -55,11 +72,12 @@
             nauki html-a.
           </p>
         </article>
-        <article>
-          <h3 class="tertiary-header">
+        <!--Article "Najbliższe plany związane z nauką języka"-->
+        <article class="article">
+          <h3 class="article__header">
             Najbliższe plany związane z nauką języka
           </h3>
-          <p class="standard-paragraf">
+          <p class="article__paragraph">
             W moich najbliższych planach związanych z nauką html-a jest
             ukończenie kursu. Następnie planuje stworzyć stronę internetową dla
             taty, albo raczej dla jego firmy. <br />Możliwe, że po ukończeniu
@@ -69,10 +87,14 @@
         </article>
       </section>
     </main>
+    <!--Skrypt-->
     <script src="main.js"></script>
-    <footer>
-      Strona stworzona przez Macieja Bika, podczas nauki html-a w ramach kursu
-      WTF: Co ten Frontend.
+    <!--Stopka-->
+    <footer class="footer">
+      <p class="footer__paragraph">
+        Strona stworzona przez Macieja Bika, podczas nauki html-a w ramach kursu
+        WTF: Co ten Frontend.
+      </p>
     </footer>
   </body>
 </html>

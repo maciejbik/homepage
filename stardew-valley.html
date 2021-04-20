@@ -10,42 +10,53 @@
 
 <body>
     <header>
-        <nav class="change-subpage">
-            <a href="index.html">Strona główna</a>
-            <a href="notatki-html.html">Notatki html</a>
-            <a href="stardew-valley.html">Dolina Stardew</a>
+        <nav class="subpage-navigation">
+          <a class="subpage-navigation__link--main" href="index.html"
+            >Strona główna</a
+          >
+          <a class="subpage-navigation__link" href="notatki-html.html"
+            >Notatki html</a
+          >
+          <a class="subpage-navigation__link" href="stardew-valley.html"
+            >Dolina Stardew</a
+          >
         </nav>
     </header>
     <main>
-        <img src="img/img-stardew-valley/Stardew_Valley_logo.png" class="img-centered" alt="Logo Stardew Valley">
+        <!--Main Header-->
+        <img class="main-header__photo" src="img/img-stardew-valley/Stardew_Valley_logo.png" alt="Logo Stardew Valley">
         <header>
             <h1 class="main-header">Stardew Valley</h1>
         </header>
-        <section>
-            <h2 class="secondary-header">O czym jest ta strona?</h2>
-            <article>
-                <h3 class="tertiary-header">O samym Stardew Valley</h3>
-                <p>To niekończące się RPG o życiu na farmie. Odziedziczyłeś kawałek ziemi po swoim zmarłym dziadku w krainie Stardew Valley.<br> Wyposażony w niezbędne narzędzia i niepełny portfel, rozpoczynasz całkowicie nowe życie. Dasz radę utrzymać się z darów natury i zamienić tę zarośniętą dzicz w swój dom? To nie będzie łatwe.<br> Odkąd Joja Corporation przybyło do miasteczka, dawne zasady życia zaniknęły. Ośrodek kultury, niegdyś centrum zainteresowania i najbardziej żywe miejsce w miasteczku teraz zmieniło się w ruinę. Ale dolina jest pełna wyjątkowych okazji i zajęć.<br> Przy odrobinie wysiłku możesz przywrócić Stardew Valley jego dawną świetność!</p>
+        <!--Section "O czym jest ta strona"-->
+        <section class="section">
+            <h2 class="section__header">O czym jest ta strona?</h2>
+            <!--Article "O samym Stardew Valley"-->
+            <article class="article">
+                <h3 class="article__header">O samym Stardew Valley</h3>
+                <p class="article__paragraph">To niekończące się RPG o życiu na farmie. Odziedziczyłeś kawałek ziemi po swoim zmarłym dziadku w krainie Stardew Valley.<br> Wyposażony w niezbędne narzędzia i niepełny portfel, rozpoczynasz całkowicie nowe życie. Dasz radę utrzymać się z darów natury i zamienić tę zarośniętą dzicz w swój dom? To nie będzie łatwe.<br> Odkąd Joja Corporation przybyło do miasteczka, dawne zasady życia zaniknęły. Ośrodek kultury, niegdyś centrum zainteresowania i najbardziej żywe miejsce w miasteczku teraz zmieniło się w ruinę. Ale dolina jest pełna wyjątkowych okazji i zajęć.<br> Przy odrobinie wysiłku możesz przywrócić Stardew Valley jego dawną świetność!</p>
             </article>
-            <article>
-                <h3 class="tertiary-header">Twórca Stardew Valley</h3>
+            <!--Article "Twórca Stardew Valley"-->
+            <article class="article">
+                <h3 class="article__header">Twórca Stardew Valley</h3>
                 <p>Eric Barone po ukończeniu studiów informatycznych, nie mogąc znaleźć pracy, samotnie rozpoczął projekt. Jako fan serii Harvest Moon postanowił stworzyć grę komputerową w założeniach podobną do niej.<br> Prace nad projektem trwały cztery lata, w ciągu których nad grą spędzał średnio 10 godzin dziennie. Gra ze wszystkimi jej elementami (grafika, muzyka) zostały w całości przez niego stworzone.<br> Eric w tym czasie był utrzymywany przez swoją dziewczynę, czasami dorabiał jako pomocnik w teatrze. Po ukończeniu gry została ona wydana przez Chucklefish.</p>
-                <img src="img/img-stardew-valley/ConcernedApe_hover.png" class="img-centered" alt="Awatar twórcy gry Stardew Valley">
+                <img class="article__paragraph" src="img/img-stardew-valley/ConcernedApe_hover.png" alt="Awatar twórcy gry Stardew Valley">
             </article>
-            <article>
-                <h3 class="tertiary-header">Do czego taka strona?</h3>
+            <!--Article "Do czego taka strona?"-->
+            <article class="article">
+                <h3 class="article__header">Do czego taka strona?</h3>
                   
-                <p>Byłem zainteresowany Stardew Valley, już od dłuższego czasu, lecz gdy zacząłem grać razem ze <br>znajomym wciągnąłem się ponownie. Ta strona jest przeznaczona na pomysły związane z grą <br>oraz, aby śledzić progres swojej gry. Nie znajdziesz na niej obiektywnych opinii, lecz bardziej <br>moje własne doświadczenie z grą. Jeśli chcesz się więcej dowiedzieć na temat gry polecam zajrzeć na stronę Wiki gry:<br>
-                    <a href=https://stardewvalleywiki.com/Stardew_Valley_Wiki>Link do strony Wiki gry</a><br>
-                    <img src="img/img-stardew-valley/Stardew_valley_wiki.png" alt="Farma z gry Stardew Valley">
+                <p class="article__paragraph">Byłem zainteresowany Stardew Valley, już od dłuższego czasu, lecz gdy zacząłem grać razem ze <br>znajomym wciągnąłem się ponownie. Ta strona jest przeznaczona na pomysły związane z grą <br>oraz, aby śledzić progres swojej gry. Nie znajdziesz na niej obiektywnych opinii, lecz bardziej <br>moje własne doświadczenie z grą. Jeśli chcesz się więcej dowiedzieć na temat gry polecam zajrzeć na stronę Wiki gry:<br>
+                    <a class="article__paragraph-link" href=https://stardewvalleywiki.com/Stardew_Valley_Wiki>Link do strony Wiki gry</a><br>
+                    <img class="article__paragraph-image" src="img/img-stardew-valley/Stardew_valley_wiki.png" alt="Farma z gry Stardew Valley">
                 </p>
             </article>
         </section>
-        
-
-        <footer>
-            Strona stworzona przez Macieja Bika, podczas nauki html-a w ramach kursu WTF: Co ten Frontend.
-        </footer>
+        <!--Footer-->
+        <footer class="footer">
+            <p class="footer__paragraph">Strona stworzona przez Macieja Bika, podczas nauki html-a w ramach kursu
+            WTF: Co ten Frontend.</p>
+          </footer>
     </main>
 </body>
 
