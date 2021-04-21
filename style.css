@@ -94,5 +94,11 @@ body {
 }
 .footer__paragraph
 {
+<<<<<<< HEAD
   color:rgb(241, 128, 22)
+=======
+    color:aqua;
+    border: 2px dotted rgb(255, 115, 0);
+    font-size: 2rem;
+>>>>>>> 541627fcf70acc4eacef154e5958c50953f3df4c
 }
